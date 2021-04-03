@@ -1,5 +1,6 @@
 import scrapy
 from Crawler.items import Packages
+import pandas as pd
 
 #Spider to Find the top 100 trending packages from PyPi site
 class PackagesPypiSpider(scrapy.Spider):
@@ -32,8 +33,6 @@ class PackagesPypiSpider(scrapy.Spider):
             next_page_url="https://pypi.org" + next_page_url
             if next_page_url:
                 yield scrapy.Request(next_page_url,callback=self.parse)
-        
-
 
     def parse_helper(self,response):
         item= Packages()
@@ -45,7 +44,7 @@ class PackagesPypiSpider(scrapy.Spider):
         item['package_name']=package_name
         item['package_url']=package_url
         item['package_description']=package_description
-
+        
         yield item 
 
         #response.xpath("//h3[contains(@class,'package-snippet__title')]/span[contains(@class,'package-snippet__name')]/text()").extract()

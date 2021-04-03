@@ -1,5 +1,6 @@
 ## Install:
 pip3 install scrapy
+sudo apt-get install python3-pandas
 
 ## Creating a project:
 scrapy startproject tutorial
