@@ -1,0 +1,101 @@
+package_description,package_name,package_url
+Neural Network Libraries,nnabla 1.18.0,https://pypi.org/project/nnabla/
+Fast and light weight simulator of rigid poly-articulated systems.,jiminy-py 1.6.7,https://pypi.org/project/jiminy-py/
+ONNX Runtime is a runtime accelerator for Machine Learning models,onnxruntime 1.7.0,https://pypi.org/project/onnxruntime/
+"Component of klio project that reduces boilerplate while \                    writing YAML-config-driven, Dockerized python Beam pipelines\                     - probably for audio processing.",klio-exec 21.2.0,https://pypi.org/project/klio-exec/
+A graphical experiment builder for the social sciences,python-opensesame 3.3.8,https://pypi.org/project/python-opensesame/
+KLayout standalone Python package,klayout 0.26.11,https://pypi.org/project/klayout/
+Jina is the cloud-native neural search solution powered by the state-of-the-art AI and deep learning,jina 1.1.1,https://pypi.org/project/jina/
+Conventions for Python + Apache Beam,klio 21.2.0,https://pypi.org/project/klio/
+NVIDIA genomics python libraries and utiliites,genomeworks-cuda-10-0 2021.2.0,https://pypi.org/project/genomeworks-cuda-10-0/
+A python package for non-parametric Mann-Kendall family of trend tests.,pymannkendall 1.4.1,https://pypi.org/project/pymannkendall/
+Core klio library for common functionality,klio-core 21.2.0,https://pypi.org/project/klio-core/
+A Jupyter kernel for Octave.,octave-kernel 0.32.0,https://pypi.org/project/octave-kernel/
+Library for working with OBO Library Ontologies and associations,ontobio 2.6.4,https://pypi.org/project/ontobio/
+Girder Worker tasks for Large Image.,large-image-tasks 1.4.3,https://pypi.org/project/large-image-tasks/
+"OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched",ocrmypdf 11.7.3,https://pypi.org/project/ocrmypdf/
+ObsPy - a Python framework for seismological observatories.,obspy 1.2.2,https://pypi.org/project/obspy/
+ModernGL: High performance rendering for Python 3,moderngl 5.6.4,https://pypi.org/project/moderngl/
+Geocoder is a simple and consistent geocoding library.,geocoder 1.38.1,https://pypi.org/project/geocoder/
+Plugin-based component modeling tool.,landlab 2.3.0,https://pypi.org/project/landlab/
+Reaction Network Generator,reacnetgenerator 1.4.164,https://pypi.org/project/reacnetgenerator/
+Neuroimaging in Python: Pipelines and Interfaces,nipype 1.6.0,https://pypi.org/project/nipype/
+The Boost::Histogram Python wrapper.,boost-histogram 1.0.1,https://pypi.org/project/boost-histogram/
+LIGO Scientific Collaboration Algorithm Library - minimal Python package,lalsuite 6.82,https://pypi.org/project/lalsuite/
+Bluebrain Python Optimisation Library (bluepyopt),bluepyopt 1.9.149,https://pypi.org/project/bluepyopt/
+PyTRiP,pytrip98 3.3.6,https://pypi.org/project/pytrip98/
+Reverb is an efficient and easy-to-use data storage and transport system designed for machine learning research.,dm-reverb-nightly 0.3.0.dev20210402,https://pypi.org/project/dm-reverb-nightly/
+"An open-source NLP research library, built on PyTorch.",allennlp-pvt-nightly 0.9.1.dev201910011800,https://pypi.org/project/allennlp-pvt-nightly/
+"Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",pytorch-transformers-pvt-nightly 1.2.0.dev201909261000,https://pypi.org/project/pytorch-transformers-pvt-nightly/
+Dashboard for financial market data,napoleontoolbox 2.89,https://pypi.org/project/napoleontoolbox/
+ktrain is a wrapper for TensorFlow Keras that makes deep learning and AI more accessible and easier to apply,ktrain 0.26.2,https://pypi.org/project/ktrain/
+FICO Xpress Optimizer Python interface,xpress 8.11.3,https://pypi.org/project/xpress/
+"Cross-platform, NumPy based module for reading TDMS files produced by LabView.",npTDMS 1.2.0,https://pypi.org/project/npTDMS/
+Backend.AI Manager,backend.ai-manager 21.3.2,https://pypi.org/project/backend.ai-manager/
+Bohrium Python API,bohrium-api 0.11.0.post60,https://pypi.org/project/bohrium-api/
+MNE python project for MEG and EEG data analysis.,mne 0.22.1,https://pypi.org/project/mne/
+A comprehensive library for computational molecular biology,biotite 0.27.0,https://pypi.org/project/biotite/
+PySCF: Python-based Simulations of Chemistry Framework,pyscf 1.7.6.post1,https://pypi.org/project/pyscf/
+Pure Python geodesy tools,PyGeodesy 21.3.3,https://pypi.org/project/PyGeodesy/
+Web Client for Visualizing Pandas Objects,dtale 1.41.1,https://pypi.org/project/dtale/
+The Biorefinery Simulation and Techno-Economic Analysis Modules,biosteam 2.24.18,https://pypi.org/project/biosteam/
+"XTGeo is a Python library for 3D grids, surfaces, wells, etc",xtgeo 2.14.2,https://pypi.org/project/xtgeo/
+Statistical learning for neuroimaging in Python,nilearn 0.7.1,https://pypi.org/project/nilearn/
+TF-Agents: A Reinforcement Learning Library for TensorFlow,tf-agents 0.7.1,https://pypi.org/project/tf-agents/
+Jupyter-friendly Python frontend for MINUIT2 in C++,iminuit 2.4.0,https://pypi.org/project/iminuit/
+Convert number words eg. three hundred and forty two to numbers (342).,word2number 1.1,https://pypi.org/project/word2number/
+G Square Conditional Independence Test,gsq 0.1.6,https://pypi.org/project/gsq/
+Linter for Machine Learning projects,mllint 0.3.3,https://pypi.org/project/mllint/
+An extension to pandas describe function.,pandas-summary 0.0.7,https://pypi.org/project/pandas-summary/
+PyTorch native Metrics,torchmetrics 0.2.0,https://pypi.org/project/torchmetrics/
+Common utilities for Camptocamp WSGI applications,c2cwsgiutils 4.1.1,https://pypi.org/project/c2cwsgiutils/
+Numerical cascade equation solver,MCEq 1.2.1,https://pypi.org/project/MCEq/
+Deep Daze,deep-daze 0.9.0,https://pypi.org/project/deep-daze/
+A complete web automation framework for end-to-end testing.,pytest-sbase 1.59.5,https://pypi.org/project/pytest-sbase/
+A complete web automation framework for end-to-end testing.,pytest-seleniumbase 1.59.5,https://pypi.org/project/pytest-seleniumbase/
+"Speaker, Language Recognition and Diarization package.",SIDEKIT 1.3.8.5.2,https://pypi.org/project/SIDEKIT/
+Python DTW Module,dtw 1.4.0,https://pypi.org/project/dtw/
+Vowpal Wabbit Python package,vowpalwabbit 8.10.0,https://pypi.org/project/vowpalwabbit/
+MOC parsing and manipulation in Python,MOCPy 0.8.5,https://pypi.org/project/MOCPy/
+TensorFlow is an open source machine learning framework for everyone.,tensorflow-rocm 2.4.1,https://pypi.org/project/tensorflow-rocm/
+OpenGL Mathematics library for Python,PyGLM 1.99.3,https://pypi.org/project/PyGLM/
+"Python bindings for MMCore, Micro-Manager's device control layer",pymmcore 10.1.1.70.0,https://pypi.org/project/pymmcore/
+"SMAC3, a Python implementation of 'Sequential Model-based Algorithm Configuration'.",smac 0.13.1,https://pypi.org/project/smac/
+Python library providing wrappers to SymEngine,symengine 0.7.2,https://pypi.org/project/symengine/
+"Tools for manipulating biological data, particularly multiple sequence alignments",bx-python 0.8.11,https://pypi.org/project/bx-python/
+Unofficial implementation for “Riemannian Adaptive Optimization Methods” ICLR2019 and more,geoopt 0.3.1,https://pypi.org/project/geoopt/
+TensorFlow Federated is an open-source federated learning framework.,tensorflow-federated-nightly 0.18.0.dev20210403,https://pypi.org/project/tensorflow-federated-nightly/
+PyTorch version of DeepMind's BigGAN model with pre-trained models,pytorch-pretrained-biggan 0.1.1,https://pypi.org/project/pytorch-pretrained-biggan/
+Python interface to PVAccess protocol client,p4p 3.5.3,https://pypi.org/project/p4p/
+MXNet is an ultra-scalable deep learning framework. This version uses MKLDNN.,mxnet-mkl 1.6.0,https://pypi.org/project/mxnet-mkl/
+C methods for MNN Package,MNN 1.1.4,https://pypi.org/project/MNN/
+Catalyst. PyTorch framework for DL research and development.,catalyst 21.3.2,https://pypi.org/project/catalyst/
+"Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",pytorch-transformers 1.2.0,https://pypi.org/project/pytorch-transformers/
+The Dynamic Neural Network Toolkit,dyNET 2.1.2,https://pypi.org/project/dyNET/
+Python Wrapper for Intel Realsense SDK 2.0.,pyrealsense2 2.43.0.3018,https://pypi.org/project/pyrealsense2/
+Python wrapper for glmnet,glmnet 2.2.1,https://pypi.org/project/glmnet/
+"Python API to Klamp't, a package for robot modeling, simulating, planning, optimization, and visualization",Klampt 0.8.6,https://pypi.org/project/Klampt/
+Python interface to Graphviz's Dot language,pydotplus 2.0.2,https://pypi.org/project/pydotplus/
+Empirically-based simulator for modeling neurons and networks of neurons,NEURON-nightly 8.0a484,https://pypi.org/project/NEURON-nightly/
+A volume modeler computation-oriented. Include rendering bindings.,volmdlr 0.2.7,https://pypi.org/project/volmdlr/
+Big Sleep,big-sleep 0.8.4,https://pypi.org/project/big-sleep/
+Feature extractor from noisy time series,light-curve-python 0.2.5,https://pypi.org/project/light-curve-python/
+Progress bar for deep learning training iterations,barbar 0.2.1,https://pypi.org/project/barbar/
+A Python implementation of seasonal trend with Loess (STL) time series decomposition,stldecompose 0.0.5,https://pypi.org/project/stldecompose/
+Geatpy is a high-performance Genetic and Evolutionary Algorithms toolbox for Python.,geatpy 2.6.0,https://pypi.org/project/geatpy/
+Fast arbitrary precision correctly-rounded decimal floating point arithmetic.,m3-cdecimal 2.3,https://pypi.org/project/m3-cdecimal/
+Earth Engine Python API,earthengine-api 0.1.259,https://pypi.org/project/earthengine-api/
+Sentinel Hub's cloud detector for Sentinel-2 imagery,s2cloudless 1.5.0,https://pypi.org/project/s2cloudless/
+Video Processing in Python,sk-video 1.1.10,https://pypi.org/project/sk-video/
+High dimensional fixed effect absorption with Python 3,pyhdfe 0.1.0,https://pypi.org/project/pyhdfe/
+Productivity-centric Python Big Data Framework,ibis-framework 1.4.0,https://pypi.org/project/ibis-framework/
+Matplotlib styles for HEP,mplhep 0.2.18,https://pypi.org/project/mplhep/
+IPython widget to interactively view molecular structures and trajectories.,nglview 2.7.7,https://pypi.org/project/nglview/
+Hidden Markov Models in Python with scikit-learn like API,hmmlearn 0.2.5,https://pypi.org/project/hmmlearn/
+"Python interface to Prodigal, an ORF finder for genomes, progenomes and metagenomes.",pyrodigal 0.4.6,https://pypi.org/project/pyrodigal/
+PyTorch version of Google AI BERT model with script to load Google pre-trained models,pytorch-pretrained-bert 0.6.2,https://pypi.org/project/pytorch-pretrained-bert/
+Python API for OpenML,openml 0.11.0,https://pypi.org/project/openml/
+ONNX Runtime is a runtime accelerator for Machine Learning models,onnxruntime-gpu 1.7.0,https://pypi.org/project/onnxruntime-gpu/
+pYthOn Finite State Machine,fysom 2.1.5,https://pypi.org/project/fysom/
+Profile Tensorboard Plugin,tensorboard-plugin-profile 2.4.0,https://pypi.org/project/tensorboard-plugin-profile/
+"""SunPy: Python for Solar Physics""",sunpy 2.1.3,https://pypi.org/project/sunpy/
