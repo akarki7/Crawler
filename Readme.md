@@ -2,7 +2,7 @@
 
 A simple python project that crawls two different websites and is capable to be extended easily to add new sites. The sites that have been crawled for now are:
 
-- [Pypi site](https://pypi.org/search/?q=&o=&c=Topic+%3A%3A+Scientific%2FEngineering): Got the 100 top trending packages in the topic of Scientific Engineering.
+- [Pypi site](https://pypi.org/search/?q=&o=-zscore&c=Topic+%3A%3A+Scientific%2FEngineering): Got the 100 top trending packages in the topic of Scientific Engineering.
 - [Packagist site](https://packagist.org/explore/popular): Got the 100 top popular packages.
 
 Architecture Notes
