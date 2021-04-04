@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Packagist</title>
+        <meta name="description" content="The PHP Package Repository" />
+        <meta name="author" content="Jordi Boggiano" />
+        <meta name="canonical" href="https://packagist.org/explore/popular" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="/favicon.ico?v=1617447801" />
+
+        <link rel="stylesheet" href="/libs/bootstrap-3.3.5/css/bootstrap.min.css?v=1617447801" />
+        <link rel="stylesheet" href="/libs/bootstrap-3.3.5/css/bootstrap-theme.min.css?v=1617447801" />
+        <link rel="stylesheet" href="/css/main.css?v=1617447801" />
+        <link rel="stylesheet" href="/css/humane/jackedup.css?v=1617447801" />
+        
+                <link rel="alternate" type="application/rss+xml" title="Newly Submitted Packages - Packagist" href="https://packagist.org/feeds/packages.rss" />
+        <link rel="alternate" type="application/rss+xml" title="New Releases - Packagist" href="https://packagist.org/feeds/releases.rss" />
+        
+        <link rel="search" type="application/opensearchdescription+xml" href="/search.osd?v=1617447801" title="Packagist" />
+
+        
+            </head>
+
+    <body>
+    <section class="wrap">
+        <header class="navbar-wrapper navbar-fixed-top">
+            <nav class="container">
+                <div class="navbar" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h1 class="navbar-brand"><a href="/">Packagist</a> <em class="hidden-sm hidden-xs">The PHP Package Repository</em></h1>
+                    </div>
+
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/explore/">Browse</a>
+                            </li>
+                            <li>
+                                <a href="/packages/submit">Submit</a>
+                            </li>                            <li>
+                                <a href="/register/">Create account</a>
+                            </li>
+                            <li class="nav-user">
+                                <section class="nav-user-signin">
+                                    <a href="/login/">Sign in</a>
+
+                                    <section class="signin-box">
+                                        <form action="/login/" method="POST" id="nav_login">
+                                            <div class="input-group">
+                                                <input class="form-control" type="text" id="_username" name="_username" placeholder="Username">
+                                                <span class="input-group-addon"><span class="icon-user"></span></span>
+                                            </div>
+                                            <div class="input-group">
+                                                <input class="form-control" type="password" id="_password" name="_password" placeholder="Password">
+                                                <span class="input-group-addon"><span class="icon-lock"></span></span>
+                                            </div>
+
+                                            <div class="checkbox">
+                                                <label for="_remember_me">
+                                                    <input type="checkbox" id="_remember_me" name="_remember_me" value="on" checked="checked" />Remember me
+                                                </label>
+                                            </div>
+                                            <div class="signin-box-buttons">
+                                                <a href="https://packagist.org/login/github" class="pull-right btn btn-primary btn-github"><span class="icon-github"></span>Use Github</a>
+                                                <button type="submit" class="btn btn-success" id="_submit_mini" name="_submit">Log in</button>
+                                            </div>
+                                        </form>
+
+                                        <div class="signin-box-register">
+                                            <a href="/register/">No account yet? Create one now!</a>
+                                        </div>
+                                    </section>
+                                </section>
+                            </li>                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="wrapper wrapper-search">
+    <div class="container with-description">
+        <form name="search_query" method="get" action="/search/" id="search-form" autocomplete="off">
+    <div class="sortable row">
+        <div class="col-xs-12 js-search-field-wrapper col-md-9">
+            <input type="search" id="search_query_query" name="search_query[query]" required="required" autocomplete="off" placeholder="Search packages..." tabindex="1" class=" form-control" value="" />
+        </div>
+    </div>
+</form>
+        <div class="row">
+            <div class="col-sm-9 hidden-xs">
+                <img src="/img/logo-small.png?v=1617447801" class="logo">
+                <p>Packagist is the main <a href="https://getcomposer.org/">Composer</a> repository. It aggregates public PHP packages installable with Composer.
+</p>
+            </div>
+        </div>    </div>
+</section>
+
+
+                
+        
+        <section class="wrapper">
+            <section class="container content" role="main">
+                                    <div id="search-container" class="hidden">
+                        <div class="row">
+                            <div class="search-list col-md-9"></div>
+
+                            <div class="search-facets col-md-3">
+                                <div class="search-facets-active-filters"></div>
+                                <div class="search-facets-type"></div>
+                                <div class="search-facets-tags"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div id="powered-by">
+                                    Search by <a href="https://www.algolia.com/"><img src="/img/algolia-logo-light.svg?v=1617447801"></a>
+                                </div>
+                                <div id="pagination-container">
+                                    <div class="pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                            <h2 class="title">Popular Packages</h2>
+    
+                            <ul class="packages list-unstyled">
+                                                            <li data-url="/packages/symfony/polyfill-mbstring" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/polyfill-mbstring">symfony/polyfill-mbstring</a>
+                                                                                                                                                                </h4>
+                                                            <p>Symfony polyfill for the Mbstring extension</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 323&#8201;125&#8201;259</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 7&#8201;109</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/polyfill-ctype" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/polyfill-ctype">symfony/polyfill-ctype</a>
+                                                                                                                                                                </h4>
+                                                            <p>Symfony polyfill for ctype functions</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 214&#8201;054&#8201;742</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 3&#8201;653</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/psr/log" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/psr/log">psr/log</a>
+                                                                                                                                                                </h4>
+                                                            <p>Common interface for logging libraries</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 346&#8201;994&#8201;132</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 9&#8201;534</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/psr/container" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/psr/container">psr/container</a>
+                                                                                                                                                                </h4>
+                                                            <p>Common Container Interface (PHP FIG PSR-11)</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 215&#8201;056&#8201;226</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 8&#8201;952</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/console" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/console">symfony/console</a>
+                                                                                                                                                                </h4>
+                                                            <p>Eases the creation of beautiful and testable command line interfaces</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 295&#8201;871&#8201;536</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 8&#8201;774</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/guzzlehttp/psr7" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/guzzlehttp/psr7">guzzlehttp/psr7</a>
+                                                                                                                                                                </h4>
+                                                            <p>PSR-7 message implementation that also provides common utility methods</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 254&#8201;966&#8201;035</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 7&#8201;042</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/webmozart/assert" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/webmozart/assert">webmozart/assert</a>
+                                                                                                                                                                </h4>
+                                                            <p>Assertions to validate method input/output with nice error messages.</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 231&#8201;519&#8201;570</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 6&#8201;725</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/guzzlehttp/promises" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/guzzlehttp/promises">guzzlehttp/promises</a>
+                                                                                                                                                                </h4>
+                                                            <p>Guzzle promises library</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 237&#8201;751&#8201;346</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 6&#8201;707</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/polyfill-intl-normalizer" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/polyfill-intl-normalizer">symfony/polyfill-intl-normalizer</a>
+                                                                                                                                                                </h4>
+                                                            <p>Symfony polyfill for intl&#039;s Normalizer class and related functions</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 64&#8201;443&#8201;356</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 889</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/psr/http-message" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/psr/http-message">psr/http-message</a>
+                                                                                                                                                                </h4>
+                                                            <p>Common interface for HTTP messages</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 258&#8201;472&#8201;076</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 6&#8201;192</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/finder" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/finder">symfony/finder</a>
+                                                                                                                                                                </h4>
+                                                            <p>Finds files and directories via an intuitive fluent interface</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 264&#8201;311&#8201;231</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 7&#8201;588</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/polyfill-php80" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/polyfill-php80">symfony/polyfill-php80</a>
+                                                                                                                                                                </h4>
+                                                            <p>Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 66&#8201;316&#8201;831</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 793</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/guzzlehttp/guzzle" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/guzzlehttp/guzzle">guzzlehttp/guzzle</a>
+                                                                                                                                                                </h4>
+                                                            <p>Guzzle is a PHP HTTP client library</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 260&#8201;595&#8201;861</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 21&#8201;343</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/doctrine/instantiator" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/doctrine/instantiator">doctrine/instantiator</a>
+                                                                                                                                                                </h4>
+                                                            <p>A small, lightweight utility to instantiate objects in PHP without invoking their constructors</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 268&#8201;753&#8201;911</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 10&#8201;014</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+                                                            <li data-url="/packages/symfony/polyfill-php72" class="row">
+                <div class="col-xs-12 package-item">
+                    <div class="row">
+                        <div class="col-sm-9 col-lg-10">
+                            <p class="pull-right language">PHP</p>                            <h4 class="font-bold">
+                                <a href="/packages/symfony/polyfill-php72">symfony/polyfill-php72</a>
+                                                                                                                                                                </h4>
+                                                            <p>Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions</p>
+                                                                                </div>
+                        <div class="col-sm-3 col-lg-2">
+                                                            <p class="metadata">
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-download"></i> 158&#8201;165&#8201;478</span>
+                                    <span class="metadata-block"><i class="glyphicon glyphicon-star"></i> 4&#8201;513</span>
+                                </p>
+                                                    </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+
+            <div class="pagination"><ul><li class="prev disabled"><span>&larr; Previous</span></li><li class="active"><span>1</span></li><li><a href="/explore/popular?page=2">2</a></li><li><a href="/explore/popular?page=3">3</a></li><li><a href="/explore/popular?page=4">4</a></li><li><a href="/explore/popular?page=5">5</a></li><li class="disabled"><span>&hellip;</span></li><li><a href="/explore/popular?page=20260">20260</a></li><li class="next"><a href="/explore/popular?page=2" rel="next">Next &rarr;</a></li></ul></div>
+    
+                        </section>
+        </section>
+    </section>
+
+        <footer class="wrapper-footer">
+            <nav class="container">
+                <div class="row">
+                    <ul class="social col-xs-7 col-sm-4 col-md-2 pull-right">
+                        <li><a href="http://github.com/composer/packagist" title="GitHub"><span class="icon-github"></span></a></li>
+                        <li><a href="https://twitter.com/packagist" title="Follow @packagist"><span class="icon-twitter"></span></a></li>
+                        <li><a href="mailto:contact@packagist.org" title="Contact"><span class="icon-mail"></span></a></li>
+                    </ul>
+
+                    <ul class="col-xs-4 col-md-2">
+                        <li><a href="/about">About Packagist</a></li>
+                        <li><a href="/feeds/" rel="nofollow">Atom/RSS Feeds</a></li>
+                    </ul>
+
+                    <div class="clearfix visible-xs-block"></div>
+
+                    <ul class="col-xs-3 col-md-2">
+                        <li><a href="/statistics" rel="nofollow">Statistics</a></li>
+                        <li><a href="/explore/">Browse Packages</a></li>
+                    </ul>
+
+                    <div class="clearfix visible-xs-block"></div>
+
+                    <ul class="col-xs-3 col-md-2">
+                        <li><a href="/apidoc">API</a></li>
+                        <li><a href="/mirrors">Mirrors</a></li>
+                    </ul>
+
+                    <div class="clearfix visible-xs-block"></div>
+
+                    <ul class="col-xs-3 col-md-2">
+                        <li><a href="https://status.packagist.org/">Status</a></li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    <p class="toran col-xs-12">Packagist maintenance and hosting is provided by <a href="https://packagist.com/">Private Packagist</a></p>
+                </div>
+            </nav>
+        </footer>
+
+        <script>
+            var algoliaConfig = {"app_id":"M58222SH95","search_key":"5ae4d03c98685bd7364c2e0fd819af05","index_name":"packagist"};
+        </script>
+
+        <script src="/libs/jquery-2.1.4.min.js?v=1617447801"></script>
+        <script src="/libs/humane-3.2.2.min.js?v=1617447801"></script>
+        <script src="/js/layout.js?v=1617447801"></script>
+        <script src="/libs/bootstrap-3.3.5/js/bootstrap.min.js?v=1617447801"></script>
+        <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.7.4/dist/instantsearch.min.js"></script>
+        <script src="/js/search.js?v=1617447801"></script>        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('set', 'anonymizeIp', true);
+            ga('create', 'UA-26723099-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+            </body>
+</html>

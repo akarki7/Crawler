@@ -51,10 +51,17 @@ class PackagesPypiSpider(scrapy.Spider):
                 yield item
 
         if PackagesPypiSpider.total_pages < 100:
-            next_page_url = response.xpath(
-                "//a[contains(@class,'button button-group__button')]/@href").extract()[-1]
-            next_page_url = "https://pypi.org" + next_page_url
+            next_page_url_text = response.xpath(
+                "//a[contains(@class,'button button-group__button')]/text()").extract()[-1]
+
+            if next_page_url_text == "Next":
+                next_page_url = response.xpath(
+                    "//a[contains(@class,'button button-group__button')]/@href").extract()[-1]
+            else:
+                next_page_url = None
+
             if next_page_url:
+                next_page_url = "https://pypi.org" + next_page_url
                 yield scrapy.Request(next_page_url, callback=self.parse)
 
 
@@ -107,8 +114,15 @@ class PackagesPackagistSpider(scrapy.Spider):
                 yield item
 
         if PackagesPackagistSpider.total_pages < 100:
-            next_page_url = response.xpath(
-                "//a[contains(@rel,'next')]/@href").extract()[0]
-            next_page_url = "https://packagist.org" + next_page_url
+            next_page_url_text = response.xpath(
+                "//a[contains(@rel,'next')]/text()").extract()[0]
+
+            if next_page_url_text == "Next":
+                next_page_url = response.xpath(
+                    "//a[contains(@rel,'next')]/@href").extract()[0]
+            else:
+                next_page_url = None
+
             if next_page_url:
+                next_page_url = "https://packagist.org" + next_page_url
                 yield scrapy.Request(next_page_url, callback=self.parse)

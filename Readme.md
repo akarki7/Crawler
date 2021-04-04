@@ -31,4 +31,4 @@ Steps to view the output
 
 Steps to run the unittests
 --------------------------
-* From the root directory run `python3 crawler_test.py`
+* From the tests directory run `python3 crawler_test.py`
