@@ -1,7 +1,6 @@
 import scrapy
 from Crawler.Crawler.items import Packages
 # from Crawler.items import Packages
-import pandas as pd
 import itertools
 
 
