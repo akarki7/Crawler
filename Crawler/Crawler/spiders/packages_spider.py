@@ -117,7 +117,7 @@ class PackagesPackagistSpider(scrapy.Spider):
             next_page_url_text = response.xpath(
                 "//a[contains(@rel,'next')]/text()").extract()[0]
 
-            if next_page_url_text == "Next":
+            if next_page_url_text == "Next →":
                 next_page_url = response.xpath(
                     "//a[contains(@rel,'next')]/@href").extract()[0]
             else:
