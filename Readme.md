@@ -27,7 +27,7 @@ Steps to view the output
 * Once the program is run you can view the results on:
   * For the data of first website: `output_Pypi.csv`
   * For the data of second website: `output_Packagist.csv`
-  * Note: Open the files in a spreadsheet (eg LibreOffice Calc on Linux) to see the datas in a proper table view
+  * Notes:Open the files in a spreadsheet (eg LibreOffice Calc on Linux) to see the datas in a proper table view
 
 Steps to run the unittests
 --------------------------
