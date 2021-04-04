@@ -1,6 +1,6 @@
 import scrapy
-# from Crawler.Crawler.items import Packages
-from Crawler.items import Packages
+from Crawler.Crawler.items import Packages
+# from Crawler.items import Packages
 import pandas as pd
 import itertools
 
@@ -16,7 +16,6 @@ class PackagesPypiSpider(scrapy.Spider):
     start_urls = [
         "https://pypi.org/search/?q=&o=-zscore&c=Topic+%3A%3A+Scientific%2FEngineering"]
 
-    #this function basically parses all the URLS of the packages (from the main page) in a single page and then calls the parser_helper function as callback function to extract data from the individual page
     def parse(self, response):
         package_names = response.xpath(
             "//h3[contains(@class,'package-snippet__title')]/span[contains(@class,'package-snippet__name')]/text()").extract()
@@ -59,6 +58,7 @@ class PackagesPypiSpider(scrapy.Spider):
             if next_page_url:
                 yield scrapy.Request(next_page_url, callback=self.parse)
 
+
 class PackagesPackagistSpider(scrapy.Spider):
     name = "PackagesPackagist"  # identifies the spider; must be unique within a project
 
@@ -69,16 +69,18 @@ class PackagesPackagistSpider(scrapy.Spider):
     start_urls = [
         "https://packagist.org/explore/popular"]
 
-    #this function basically parses all the URLS of the packages (from the main page) in a single page and then calls the parser_helper function as callback function to extract data from the individual page
     def parse(self, response):
-        package_names = response.xpath("//ul[contains(@class,'packages list-unstyled')]/li//a/text()").extract()
+        package_names = response.xpath(
+            "//ul[contains(@class,'packages list-unstyled')]/li//a/text()").extract()
         # package_names=[]
 
         # for names in package_names_helper:
         #     package_names.append(names.partition('/')[2])
 
-        package_urls = response.xpath("//ul[contains(@class,'packages list-unstyled')]/li//@href").extract()
-        package_descriptions = response.xpath("//ul[contains(@class,'packages list-unstyled')]/li//div[contains(@class,'col-sm-9 col-lg-10')]/p[2]/text()").extract()
+        package_urls = response.xpath(
+            "//ul[contains(@class,'packages list-unstyled')]/li//@href").extract()
+        package_descriptions = response.xpath(
+            "//ul[contains(@class,'packages list-unstyled')]/li//div[contains(@class,'col-sm-9 col-lg-10')]/p[2]/text()").extract()
 
         total_now = len(package_urls)
 
@@ -106,8 +108,8 @@ class PackagesPackagistSpider(scrapy.Spider):
                 yield item
 
         if PackagesPackagistSpider.total_pages < 100:
-            next_page_url = response.xpath("//a[contains(@rel,'next')]/@href").extract()[0]
+            next_page_url = response.xpath(
+                "//a[contains(@rel,'next')]/@href").extract()[0]
             next_page_url = "https://packagist.org" + next_page_url
             if next_page_url:
                 yield scrapy.Request(next_page_url, callback=self.parse)
-
