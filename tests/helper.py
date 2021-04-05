@@ -1,9 +1,10 @@
 import os
 from scrapy.http import Request, TextResponse
 
-
+"""
+    This function creates a Scrapy fake HTTP response from a given local html file and returns it
+"""
 def fake_response(file_name=None, url=None):
-    """Create a Scrapy fake HTTP response from a HTML file"""
     if not url:  # not None -> True
         url = 'http://www.example.com'
 
@@ -24,7 +25,10 @@ def fake_response(file_name=None, url=None):
                             encoding='utf-8')
     return response
 
-
+"""
+    This function takes an argument according to which it returns a list of URLS that have been extracted
+    from the local html files. 
+"""
 def generate_urls(value):
     if value == 1:
         urls = ["https://pypi.org/project/nnabla/",
