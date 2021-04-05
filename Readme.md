@@ -49,6 +49,6 @@ Folder and File Descriptions: (only the important files are listed)
     ├── Crawler 
         ├── Crawler
            ├──spiders (folder which stores all the crawlers)
-              ├──packages_spider.py (connects to the website and scraps data from that website and returns the crawled data)
+              ├──packages_spider.py (connects to the website and scraps data from it)
            ├──items.py (contains the Class definition which is used to store the crawled data)
   
