@@ -17,7 +17,6 @@ def fake_response(file_name=None, url=None):
 
         with open(file_path, 'r') as f:
             file_content = f.read()
-
     else:
         file_content = ''
 

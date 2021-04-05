@@ -32,3 +32,23 @@ Steps to view the output
 Steps to run the unittests
 --------------------------
 * From the tests directory run `python3 crawler_test.py`
+
+
+Folder and File Descriptions: (only the important files are listed)
+-------------------------------------------------------------------
+
+    COMPREDICT
+    ├── main.py (main file from where you run the project)
+    ├── docs
+        ├── Documentation.pdf (contains the documentation of the project)
+    ├── tests
+        ├── crawler_test.py (main file to run unittests)
+        ├── helper.py (helper function for unittests)
+        ├── test1.html (contains html code needed for unittests)
+        ├── test2.html (contains html code needed for unittests)
+    ├── Crawler 
+        ├── Crawler
+           ├──spiders (folder which stores all the crawlers)
+              ├──packages_spider.py (connects to the website and scraps data from that website and returns the crawled data)
+           ├──items.py (contains the Class definition which is used to store the crawled data)
+  
