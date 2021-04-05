@@ -64,6 +64,8 @@ class PackagesPypiSpider(scrapy.Spider):
                 next_page_url = "https://pypi.org" + next_page_url
                 yield scrapy.Request(next_page_url, callback=self.parse)
 
+#Spider to Find the top 100 popular packages from Packagist site
+
 
 class PackagesPackagistSpider(scrapy.Spider):
     name = "PackagesPackagist"  # identifies the spider; must be unique within a project
@@ -82,6 +84,9 @@ class PackagesPackagistSpider(scrapy.Spider):
 
         # for names in package_names_helper:
         #     package_names.append(names.partition('/')[2])
+
+        #This commented part is used to just extract the package name instead of the whole module and submodule names
+        #I commented this out because I was not sure which name to extract
 
         package_urls = response.xpath(
             "//ul[contains(@class,'packages list-unstyled')]/li//@href").extract()
