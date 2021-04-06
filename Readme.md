@@ -19,7 +19,6 @@ Steps to setup & start the project
 * From the root directory run:
   * Crawl through the first website: `python3 main.py 1` 
   * Crawl through the second website: `python3 main.py 2`
-  * Crawl through both websites: `python3 main.py 3`
 * If you want to stop the virtual environment: `deactivate`
 
 Steps to view the output
@@ -38,7 +37,7 @@ Folder and File Descriptions: (only the important files are listed)
 -------------------------------------------------------------------
 
     COMPREDICT
-    ├── main.py (main file from where you run the project)
+    ├── main.py (main file from where you pass the data and run the project)
     ├── docs
         ├── Documentation.pdf (contains the documentation of the project)
     ├── tests

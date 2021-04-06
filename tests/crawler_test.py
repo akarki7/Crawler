@@ -1,18 +1,20 @@
 import unittest
-from helper import fake_response,generate_urls
+from helper import fake_response,generate_urls,generate_pypi,generate_packagist
 import sys
 
 sys.path.append("./..")
 
-from Crawler.Crawler.spiders.packages_spider import PackagesPypiSpider, PackagesPackagistSpider
+from Crawler.Crawler.spiders.packages_spider import Packages_Crawler
 
 class CrawlerProject(unittest.TestCase):
     """
         Initializes the spiders needed for both the websites parser testing
     """
     def setUp(self):
-        self.spider = PackagesPypiSpider()
-        self.spider2=PackagesPackagistSpider()
+        a,b,c,d,e,f,g,h,i,j=generate_pypi()
+        self.spider = Packages_Crawler(a,b,c,d,e,f,g,h,i,j)
+        a,b,c,d,e,f,g,h,i,j=generate_packagist()
+        self.spider2=Packages_Crawler(a,b,c,d,e,f,g,h,i,j)
 
     """
         This function passes the fake response generated from the first website to the crawler parser

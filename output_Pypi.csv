@@ -1,0 +1,101 @@
+package_name,package_description,package_url
+nnabla1.18.0,Neural Network Libraries,https://pypi.org/project/nnabla/
+reacnetgenerator1.4.164,Reaction Network Generator,https://pypi.org/project/reacnetgenerator/
+moderngl5.6.4,ModernGL: High performance rendering for Python 3,https://pypi.org/project/moderngl/
+ocrmypdf11.7.3,"OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched",https://pypi.org/project/ocrmypdf/
+obspy1.2.2,ObsPy - a Python framework for seismological observatories.,https://pypi.org/project/obspy/
+geocoder1.38.1,Geocoder is a simple and consistent geocoding library.,https://pypi.org/project/geocoder/
+klio21.2.0,Conventions for Python + Apache Beam,https://pypi.org/project/klio/
+klio-core21.2.0,Core klio library for common functionality,https://pypi.org/project/klio-core/
+onnxruntime1.7.0,ONNX Runtime is a runtime accelerator for Machine Learning models,https://pypi.org/project/onnxruntime/
+python-opensesame3.3.8,A graphical experiment builder for the social sciences,https://pypi.org/project/python-opensesame/
+jiminy-py1.6.7,Fast and light weight simulator of rigid poly-articulated systems.,https://pypi.org/project/jiminy-py/
+klio-exec21.2.0,"Component of klio project that reduces boilerplate while \                    writing YAML-config-driven, Dockerized python Beam pipelines\                     - probably for audio processing.",https://pypi.org/project/klio-exec/
+pymannkendall1.4.1,A python package for non-parametric Mann-Kendall family of trend tests.,https://pypi.org/project/pymannkendall/
+jina1.1.2,Jina is the cloud-native neural search solution powered by the state-of-the-art AI and deep learning,https://pypi.org/project/jina/
+allennlp-pvt-nightly0.9.1.dev201910011800,"An open-source NLP research library, built on PyTorch.",https://pypi.org/project/allennlp-pvt-nightly/
+pytorch-transformers-pvt-nightly1.2.0.dev201909261000,"Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",https://pypi.org/project/pytorch-transformers-pvt-nightly/
+pyscf1.7.6.post1,PySCF: Python-based Simulations of Chemistry Framework,https://pypi.org/project/pyscf/
+bohrium-api0.11.0.post60,Bohrium Python API,https://pypi.org/project/bohrium-api/
+pytrip983.3.6,PyTRiP,https://pypi.org/project/pytrip98/
+dtale1.41.1,Web Client for Visualizing Pandas Objects,https://pypi.org/project/dtale/
+napoleontoolbox2.89,Dashboard for financial market data,https://pypi.org/project/napoleontoolbox/
+mne0.22.1,MNE python project for MEG and EEG data analysis.,https://pypi.org/project/mne/
+dm-reverb-nightly0.3.0.dev20210405,Reverb is an efficient and easy-to-use data storage and transport system designed for machine learning research.,https://pypi.org/project/dm-reverb-nightly/
+lalsuite6.82,LIGO Scientific Collaboration Algorithm Library - minimal Python package,https://pypi.org/project/lalsuite/
+nipype1.6.0,Neuroimaging in Python: Pipelines and Interfaces,https://pypi.org/project/nipype/
+ktrain0.26.2,ktrain is a wrapper for TensorFlow Keras that makes deep learning and AI more accessible and easier to apply,https://pypi.org/project/ktrain/
+dtw1.4.0,Python DTW Module,https://pypi.org/project/dtw/
+mllint0.3.3,Linter for Machine Learning projects,https://pypi.org/project/mllint/
+PyGeodesy21.3.3,Pure Python geodesy tools,https://pypi.org/project/pygeodesy/
+boost-histogram1.0.1,The Boost::Histogram Python wrapper.,https://pypi.org/project/boost-histogram/
+MCEq1.2.1,Numerical cascade equation solver,https://pypi.org/project/mceq/
+PyGLM1.99.3,OpenGL Mathematics library for Python,https://pypi.org/project/pyglm/
+MOCPy0.8.5,MOC parsing and manipulation in Python,https://pypi.org/project/mocpy/
+torchmetrics0.2.0,PyTorch native Metrics,https://pypi.org/project/torchmetrics/
+xtgeo2.14.2,"XTGeo is a Python library for 3D grids, surfaces, wells, etc",https://pypi.org/project/xtgeo/
+pandas-summary0.0.7,An extension to pandas describe function.,https://pypi.org/project/pandas-summary/
+iminuit2.4.0,Jupyter-friendly Python frontend for MINUIT2 in C++,https://pypi.org/project/iminuit/
+deep-daze0.10.0,Deep Daze,https://pypi.org/project/deep-daze/
+nilearn0.7.1,Statistical learning for neuroimaging in Python,https://pypi.org/project/nilearn/
+word2number1.1,Convert number words eg. three hundred and forty two to numbers (342).,https://pypi.org/project/word2number/
+gsq0.1.6,G Square Conditional Independence Test,https://pypi.org/project/gsq/
+vowpalwabbit8.10.0,Vowpal Wabbit Python package,https://pypi.org/project/vowpalwabbit/
+mxnet-mkl1.6.0,MXNet is an ultra-scalable deep learning framework. This version uses MKLDNN.,https://pypi.org/project/mxnet-mkl/
+glmnet2.2.1,Python wrapper for glmnet,https://pypi.org/project/glmnet/
+p4p3.5.3,Python interface to PVAccess protocol client,https://pypi.org/project/p4p/
+pytorch-transformers1.2.0,"Repository of pre-trained NLP Transformer models: BERT & RoBERTa, GPT & GPT-2, Transformer-XL, XLNet and XLM",https://pypi.org/project/pytorch-transformers/
+NEURON-nightly8.0a484,Empirically-based simulator for modeling neurons and networks of neurons,https://pypi.org/project/neuron-nightly/
+sunpy2.1.3,"""SunPy: Python for Solar Physics""",https://pypi.org/project/sunpy/
+tensorboard-plugin-profile2.4.0,Profile Tensorboard Plugin,https://pypi.org/project/tensorboard-plugin-profile/
+pyrealsense22.44.0.3073,Python Wrapper for Intel Realsense SDK 2.0.,https://pypi.org/project/pyrealsense2/
+pydotplus2.0.2,Python interface to Graphviz's Dot language,https://pypi.org/project/pydotplus/
+pytorch-pretrained-bert0.6.2,PyTorch version of Google AI BERT model with script to load Google pre-trained models,https://pypi.org/project/pytorch-pretrained-bert/
+stldecompose0.0.5,A Python implementation of seasonal trend with Loess (STL) time series decomposition,https://pypi.org/project/stldecompose/
+MNN1.1.4,C methods for MNN Package,https://pypi.org/project/mnn/
+hmmlearn0.2.5,Hidden Markov Models in Python with scikit-learn like API,https://pypi.org/project/hmmlearn/
+smac0.13.1,"SMAC3, a Python implementation of 'Sequential Model-based Algorithm Configuration'.",https://pypi.org/project/smac/
+big-sleep0.8.5,Big Sleep,https://pypi.org/project/big-sleep/
+pytorch-pretrained-biggan0.1.1,PyTorch version of DeepMind's BigGAN model with pre-trained models,https://pypi.org/project/pytorch-pretrained-biggan/
+geoopt0.3.1,Unofficial implementation for “Riemannian Adaptive Optimization Methods” ICLR2019 and more,https://pypi.org/project/geoopt/
+pyhdfe0.1.0,High dimensional fixed effect absorption with Python 3,https://pypi.org/project/pyhdfe/
+m3-cdecimal2.3,Fast arbitrary precision correctly-rounded decimal floating point arithmetic.,https://pypi.org/project/m3-cdecimal/
+symengine0.7.2,Python library providing wrappers to SymEngine,https://pypi.org/project/symengine/
+bx-python0.8.11,"Tools for manipulating biological data, particularly multiple sequence alignments",https://pypi.org/project/bx-python/
+ibis-framework1.4.0,Productivity-centric Python Big Data Framework,https://pypi.org/project/ibis-framework/
+mplhep0.3.1,Matplotlib styles for HEP,https://pypi.org/project/mplhep/
+openml0.11.0,Python API for OpenML,https://pypi.org/project/openml/
+fysom2.1.5,pYthOn Finite State Machine,https://pypi.org/project/fysom/
+sk-video1.1.10,Video Processing in Python,https://pypi.org/project/sk-video/
+tensorflow-io0.17.0,TensorFlow IO,https://pypi.org/project/tensorflow-io/
+nglview2.7.7,IPython widget to interactively view molecular structures and trajectories.,https://pypi.org/project/nglview/
+envisage5.0.0,Extensible application framework,https://pypi.org/project/envisage/
+earthengine-api0.1.259,Earth Engine Python API,https://pypi.org/project/earthengine-api/
+geatpy2.6.0,Geatpy is a high-performance Genetic and Evolutionary Algorithms toolbox for Python.,https://pypi.org/project/geatpy/
+apptools5.1.0,application tools,https://pypi.org/project/apptools/
+tbp-nightly2.5.0a20210304,Profile Tensorboard Plugin,https://pypi.org/project/tbp-nightly/
+bezier2021.2.12,"Helper for Bézier Curves, Triangles, and Higher Order Objects",https://pypi.org/project/bezier/
+dask-gateway0.9.0,A client library for interacting with a dask-gateway server,https://pypi.org/project/dask-gateway/
+light-curve-python0.2.5,Feature extractor from noisy time series,https://pypi.org/project/light-curve-python/
+deepspeech-gpu0.9.3,A library for running inference on a DeepSpeech model,https://pypi.org/project/deepspeech-gpu/
+barbar0.2.1,Progress bar for deep learning training iterations,https://pypi.org/project/barbar/
+open3d-python0.7.0.0,['Open3D is an open-source library that supports rapid development of software that deals with 3D data.'],https://pypi.org/project/open3d-python/
+joblibspark0.3.0,Joblib Apache Spark Backend,https://pypi.org/project/joblibspark/
+tfa-nightly0.13.0.dev20210402092435,TensorFlow Addons.,https://pypi.org/project/tfa-nightly/
+tensorflow-datasets4.2.0,tensorflow/datasets is a library of datasets ready to use with TensorFlow.,https://pypi.org/project/tensorflow-datasets/
+s2cloudless1.5.0,Sentinel Hub's cloud detector for Sentinel-2 imagery,https://pypi.org/project/s2cloudless/
+pysam0.16.0.1,pysam,https://pypi.org/project/pysam/
+nflx-genie-client3.6.16,Genie Python Client.,https://pypi.org/project/nflx-genie-client/
+traitsui7.1.1,traitsui: traits-capable user interfaces,https://pypi.org/project/traitsui/
+torch-optimizer0.1.0,pytorch-optimizer,https://pypi.org/project/torch-optimizer/
+mayavi4.7.2,3D scientific data visualization library and application,https://pypi.org/project/mayavi/
+torchfunc-nightly1617668147,"PyTorch functions to improve performance, analyse models and make your life easier.",https://pypi.org/project/torchfunc-nightly/
+coala0.11.0,Linting and Fixing Code for All Languages,https://pypi.org/project/coala/
+pyansys0.60.0,Pythonic interfaces to Ansys products,https://pypi.org/project/pyansys/
+torchdata-nightly1617667465,PyTorch based library focused on data processing and input pipelines in general.,https://pypi.org/project/torchdata-nightly/
+tfg-nightly2021.4.6,"A library that contains well defined, reusable and cleanly written graphics related ops and utility functions for TensorFlow.",https://pypi.org/project/tfg-nightly/
+marisa-trie-m0.7.6,Static memory-efficient and fast Trie-like structures for Python.,https://pypi.org/project/marisa-trie-m/
+vectorhub-nightly1.2.0.2021.4.6.0.32.21.435063,"One liner to encode data into vectors with state-of-the-art models using tensorflow, pytorch and other open source libraries. Word2Vec, Image2Vec, BERT, etc",https://pypi.org/project/vectorhub-nightly/
+pyclipper1.2.1,Cython wrapper for the C++ translation of the Angus Johnson's Clipper library (ver. 6.4.2),https://pypi.org/project/pyclipper/
+pyface7.3.0,traits-capable windowing framework,https://pypi.org/project/pyface/
+pydot21.0.33,Python interface to Graphviz's Dot,https://pypi.org/project/pydot2/

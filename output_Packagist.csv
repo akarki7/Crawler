@@ -1,0 +1,101 @@
+package_name,package_description,package_url
+symfony/polyfill-mbstring,Symfony polyfill for the Mbstring extension,https://packagist.org/packages/symfony/polyfill-mbstring
+symfony/polyfill-ctype,Symfony polyfill for ctype functions,https://packagist.org/packages/symfony/polyfill-ctype
+psr/log,Common interface for logging libraries,https://packagist.org/packages/psr/log
+psr/container,Common Container Interface (PHP FIG PSR-11),https://packagist.org/packages/psr/container
+symfony/console,Eases the creation of beautiful and testable command line interfaces,https://packagist.org/packages/symfony/console
+guzzlehttp/psr7,PSR-7 message implementation that also provides common utility methods,https://packagist.org/packages/guzzlehttp/psr7
+webmozart/assert,Assertions to validate method input/output with nice error messages.,https://packagist.org/packages/webmozart/assert
+guzzlehttp/promises,Guzzle promises library,https://packagist.org/packages/guzzlehttp/promises
+symfony/polyfill-intl-normalizer,Symfony polyfill for intl's Normalizer class and related functions,https://packagist.org/packages/symfony/polyfill-intl-normalizer
+psr/http-message,Common interface for HTTP messages,https://packagist.org/packages/psr/http-message
+symfony/polyfill-php72,Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions,https://packagist.org/packages/symfony/polyfill-php72
+symfony/finder,Finds files and directories via an intuitive fluent interface,https://packagist.org/packages/symfony/finder
+guzzlehttp/guzzle,Guzzle is a PHP HTTP client library,https://packagist.org/packages/guzzlehttp/guzzle
+doctrine/instantiator,"A small, lightweight utility to instantiate objects in PHP without invoking their constructors",https://packagist.org/packages/doctrine/instantiator
+symfony/polyfill-php80,Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions,https://packagist.org/packages/symfony/polyfill-php80
+symfony/polyfill-intl-idn,Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions,https://packagist.org/packages/symfony/polyfill-intl-idn
+symfony/event-dispatcher,Provides tools that allow your application components to communicate with each other by dispatching events and listening to them,https://packagist.org/packages/symfony/event-dispatcher
+symfony/process,Executes commands in sub-processes,https://packagist.org/packages/symfony/process
+symfony/polyfill-php73,Symfony polyfill backporting some PHP 7.3+ features to lower PHP versions,https://packagist.org/packages/symfony/polyfill-php73
+phpdocumentor/reflection-docblock,"With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",https://packagist.org/packages/phpdocumentor/reflection-docblock
+ralouphie/getallheaders,A polyfill for getallheaders.,https://packagist.org/packages/ralouphie/getallheaders
+symfony/service-contracts,Generic abstractions related to writing services,https://packagist.org/packages/symfony/service-contracts
+phpdocumentor/type-resolver,"A PSR-5 based resolver of Class names, Types and Structural Element Names",https://packagist.org/packages/phpdocumentor/type-resolver
+phpdocumentor/reflection-common,Common reflection classes used by phpdocumentor to reflect the code structure,https://packagist.org/packages/phpdocumentor/reflection-common
+monolog/monolog,"Sends your logs to files, sockets, inboxes, databases and various web services",https://packagist.org/packages/monolog/monolog
+doctrine/lexer,"PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",https://packagist.org/packages/doctrine/lexer
+sebastian/diff,Diff implementation,https://packagist.org/packages/sebastian/diff
+phpunit/phpunit,The PHP Unit Testing framework.,https://packagist.org/packages/phpunit/phpunit
+phpspec/prophecy,Highly opinionated mocking framework for PHP 5.3+,https://packagist.org/packages/phpspec/prophecy
+phpunit/php-code-coverage,"Library that provides collection, processing, and rendering functionality for PHP code coverage information.",https://packagist.org/packages/phpunit/php-code-coverage
+sebastian/exporter,Provides the functionality to export PHP variables for visualization,https://packagist.org/packages/sebastian/exporter
+sebastian/recursion-context,Provides functionality to recursively process PHP variables,https://packagist.org/packages/sebastian/recursion-context
+sebastian/comparator,Provides the functionality to compare PHP values for equality,https://packagist.org/packages/sebastian/comparator
+phpunit/php-timer,Utility class for timing,https://packagist.org/packages/phpunit/php-timer
+myclabs/deep-copy,Create deep copies (clones) of your objects,https://packagist.org/packages/myclabs/deep-copy
+phpunit/php-file-iterator,FilterIterator implementation that filters files based on a list of suffixes.,https://packagist.org/packages/phpunit/php-file-iterator
+sebastian/environment,Provides functionality to handle HHVM/PHP environments,https://packagist.org/packages/sebastian/environment
+sebastian/version,Library that helps with managing the version number of Git-hosted PHP projects,https://packagist.org/packages/sebastian/version
+sebastian/global-state,Snapshotting of global state,https://packagist.org/packages/sebastian/global-state
+phpunit/php-text-template,Simple template engine.,https://packagist.org/packages/phpunit/php-text-template
+symfony/var-dumper,Provides mechanisms for walking through any arbitrary PHP variable,https://packagist.org/packages/symfony/var-dumper
+doctrine/inflector,PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.,https://packagist.org/packages/doctrine/inflector
+sebastian/code-unit-reverse-lookup,Looks up which function or method a line of code belongs to,https://packagist.org/packages/sebastian/code-unit-reverse-lookup
+symfony/http-foundation,Defines an object-oriented layer for the HTTP specification,https://packagist.org/packages/symfony/http-foundation
+sebastian/object-enumerator,Traverses array structures and object graphs to enumerate all referenced objects,https://packagist.org/packages/sebastian/object-enumerator
+sebastian/resource-operations,Provides a list of PHP built-in functions that operate on resources,https://packagist.org/packages/sebastian/resource-operations
+nikic/php-parser,A PHP parser written in PHP,https://packagist.org/packages/nikic/php-parser
+symfony/translation,Provides tools to internationalize your application,https://packagist.org/packages/symfony/translation
+symfony/http-kernel,Provides a structured process for converting a Request into a Response,https://packagist.org/packages/symfony/http-kernel
+symfony/event-dispatcher-contracts,Generic abstractions related to dispatching event,https://packagist.org/packages/symfony/event-dispatcher-contracts
+phar-io/version,Library for handling version information and constraints,https://packagist.org/packages/phar-io/version
+sebastian/object-reflector,"Allows reflection of object attributes, including inherited and non-public ones",https://packagist.org/packages/sebastian/object-reflector
+theseer/tokenizer,A small library for converting tokenized PHP source code into XML and potentially other formats,https://packagist.org/packages/theseer/tokenizer
+phar-io/manifest,Component for reading phar.io manifest information from a PHP Archive (PHAR),https://packagist.org/packages/phar-io/manifest
+symfony/routing,Maps an HTTP request to a set of configuration variables,https://packagist.org/packages/symfony/routing
+symfony/deprecation-contracts,A generic function and convention to trigger deprecation notices,https://packagist.org/packages/symfony/deprecation-contracts
+psr/simple-cache,Common interfaces for simple caching,https://packagist.org/packages/psr/simple-cache
+symfony/css-selector,Converts CSS selectors to XPath expressions,https://packagist.org/packages/symfony/css-selector
+symfony/translation-contracts,Generic abstractions related to translation,https://packagist.org/packages/symfony/translation-contracts
+symfony/mime,Allows manipulating MIME messages,https://packagist.org/packages/symfony/mime
+egulias/email-validator,A library for validating emails against several RFCs,https://packagist.org/packages/egulias/email-validator
+symfony/string,"Provides an object-oriented API to strings and deals with bytes, UTF-8 code points and grapheme clusters in a unified way",https://packagist.org/packages/symfony/string
+symfony/error-handler,Provides tools to manage errors and ease debugging PHP code,https://packagist.org/packages/symfony/error-handler
+symfony/filesystem,Provides basic utilities for the filesystem,https://packagist.org/packages/symfony/filesystem
+symfony/yaml,Loads and dumps YAML files,https://packagist.org/packages/symfony/yaml
+symfony/polyfill-intl-grapheme,Symfony polyfill for intl's grapheme_* functions,https://packagist.org/packages/symfony/polyfill-intl-grapheme
+swiftmailer/swiftmailer,"Swiftmailer, free feature-rich PHP mailer",https://packagist.org/packages/swiftmailer/swiftmailer
+ramsey/uuid,A PHP library for generating and working with universally unique identifiers (UUIDs).,https://packagist.org/packages/ramsey/uuid
+symfony/http-client-contracts,Generic abstractions related to HTTP clients,https://packagist.org/packages/symfony/http-client-contracts
+nesbot/carbon,An API extension for DateTime that supports 281 different languages.,https://packagist.org/packages/nesbot/carbon
+doctrine/cache,"PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",https://packagist.org/packages/doctrine/cache
+paragonie/random_compat,PHP 5.x polyfill for random_bytes() and random_int() from PHP 7,https://packagist.org/packages/paragonie/random_compat
+psr/http-client,Common interface for HTTP clients,https://packagist.org/packages/psr/http-client
+league/flysystem,File storage abstraction for PHP,https://packagist.org/packages/league/flysystem
+vlucas/phpdotenv,"Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",https://packagist.org/packages/vlucas/phpdotenv
+doctrine/dbal,Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.,https://packagist.org/packages/doctrine/dbal
+symfony/polyfill-iconv,Symfony polyfill for the Iconv extension,https://packagist.org/packages/symfony/polyfill-iconv
+sebastian/type,Collection of value objects that represent the types of the PHP type system,https://packagist.org/packages/sebastian/type
+doctrine/annotations,Docblock Annotations Parser,https://packagist.org/packages/doctrine/annotations
+psr/cache,Common interface for caching libraries,https://packagist.org/packages/psr/cache
+doctrine/event-manager,The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.,https://packagist.org/packages/doctrine/event-manager
+phpunit/php-token-stream,Wrapper around PHP's tokenizer extension.,https://packagist.org/packages/phpunit/php-token-stream
+psr/event-dispatcher,Standard interfaces for event handling.,https://packagist.org/packages/psr/event-dispatcher
+phpoption/phpoption,Option Type for PHP,https://packagist.org/packages/phpoption/phpoption
+dnoegel/php-xdg-base-dir,implementation of xdg base directory specification for php,https://packagist.org/packages/dnoegel/php-xdg-base-dir
+psy/psysh,An interactive shell for modern PHP.,https://packagist.org/packages/psy/psysh
+tijsverkoyen/css-to-inline-styles,CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.,https://packagist.org/packages/tijsverkoyen/css-to-inline-styles
+laravel/framework,The Laravel Framework.,https://packagist.org/packages/laravel/framework
+symfony/debug,Provides tools to ease debugging PHP code,https://packagist.org/packages/symfony/debug
+symfony/options-resolver,Provides an improved replacement for the array_replace PHP function,https://packagist.org/packages/symfony/options-resolver
+mockery/mockery,Mockery is a simple yet flexible PHP mock object framework,https://packagist.org/packages/mockery/mockery
+opis/closure,A library that can be used to serialize closures (anonymous functions) and arbitrary objects.,https://packagist.org/packages/opis/closure
+aws/aws-sdk-php,AWS SDK for PHP - Use Amazon Web Services in your PHP project,https://packagist.org/packages/aws/aws-sdk-php
+league/mime-type-detection,Mime-type detection for Flysystem,https://packagist.org/packages/league/mime-type-detection
+dragonmantank/cron-expression,CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due,https://packagist.org/packages/dragonmantank/cron-expression
+hamcrest/hamcrest-php,This is the PHP port of Hamcrest Matchers,https://packagist.org/packages/hamcrest/hamcrest-php
+composer/semver,"Semver library that offers utilities, version constraint parsing and validation.",https://packagist.org/packages/composer/semver
+composer/xdebug-handler,Restarts a process without Xdebug.,https://packagist.org/packages/composer/xdebug-handler
+psr/http-factory,Common interfaces for PSR-7 HTTP message factories,https://packagist.org/packages/psr/http-factory
+mtdowling/jmespath.php,Declaratively specify how to extract elements from a JSON document,https://packagist.org/packages/mtdowling/jmespath.php
